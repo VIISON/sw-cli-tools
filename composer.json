@@ -16,6 +16,10 @@
         "squizlabs/php_codesniffer": "2.0.*@ALPHA"
 
     },
+    "scripts": {
+        "post-install-cmd": "ln -sf ../../hooks/pre-commit .git/hooks/pre-commit",
+        "post-update-cmd": "ln -sf ../../hooks/pre-commit .git/hooks/pre-commit"
+    },
     "autoload": {
         "psr-4": {
             "ShopwareCli\\": "src/"
