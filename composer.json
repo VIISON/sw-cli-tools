@@ -13,7 +13,9 @@
         "symfony/dependency-injection": "~2.5",
         "dnoegel/php-xdg-base-dir": "~0.1",
         "shopware-ag/plugin-info": "dev-master",
-        "kherge/amend": "3.*"
+        "kherge/amend": "3.*",
+        "guzzlehttp/guzzle": "^6.0",
+        "piwik/ini": "^1.0"
     },
     "require-dev": {
         "ext-phar": "*",
